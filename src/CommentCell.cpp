@@ -18,7 +18,7 @@ void download_list() {
 		m_listener.bind([] (web::WebTask::Event* e) {
             if (web::WebResponse* res = e->getValue()) {
 				auto data = res->string().unwrapOr("eee"); // wowzers found whats printing
-				log::debug("Attempting to download YouTuber List..");
+				log::debug("Attempting to download Chatter List..");
 				std::istringstream iss(data);
 				std::string temp_string;
 
