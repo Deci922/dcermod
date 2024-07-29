@@ -2,13 +2,13 @@
 	"geode": "3.0.0-beta.5",
 	"gd": {
 		"win": "2.206",
-		"android": "2.206",
-        "mac": "2.206"
+		"android": "*",
+        "mac": "*"
 	},
-	"version": "v1.1.0",
-	"id": "xanii.youtubers",
-	"name": "YouTubers",
-	"developer": "Xanii",
+	"version": "v0.1.0",
+	"id": "deci922.dcermod",
+	"name": "Prominent Daily Chatters",
+	"developer": "Deci922",
     "dependencies": [
         {
             "id": "geode.node-ids",
@@ -23,8 +23,8 @@
             "version": "*"
         }
     ],
-	"repository": "https://github.com/LXanii/GD-YouTubers/tree/main",
-	"description": "Gives YouTubers a badge in Geometry Dash to help identify their profiles!",
+	"repository": "https://github.com/Deci922/dcermod/tree/main",
+	"description": "This Geode mod gives prominent Daily Chatters a special badge and comment color!",
 	"resources": {
         "sprites": [
             "resources/*.png"
